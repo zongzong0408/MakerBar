@@ -1,0 +1,39 @@
+body {
+	font-family: "Lucida Console", "Microsoft JhengHei", "微軟正黑體", sans-serif;
+	font-size: 80%;
+	font-weight: bold;
+	}	
+	
+#menu {
+	width: 200px;
+	margin-top: 10px;
+	position: relative;
+	float: left;
+	}
+	
+#menu li a {
+	text-decoration: none;
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	}
+	
+#menu li a:link, #menu li a:visited {
+	color: white;
+	display: block;
+	background: url(menu.gif);
+	padding: 8px 0 0 20px;
+	}
+	
+#menu li a:hover {
+	color: #f44336;
+	background: url(menu.gif) 0 -32px;
+	padding: 8px 0 0 25px;
+	}
+	
+#menu li a:active {
+	color: black;
+	background: url(menu.gif) 0 -64px;
+	padding: 8px 0 0 25px;
+	}

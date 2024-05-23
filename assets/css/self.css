@@ -1,0 +1,114 @@
+body {
+    font-family: "Lucida Console", "Microsoft JhengHei", "微軟正黑體", sans-serif !important;
+}
+
+html {
+    overflow: -moz-hidden-unscrollable;
+    height: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;
+    height: 100%;
+	width: calc(100vw + 18px);
+	overflow: auto;
+}
+
+.search_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_bar {
+    width: 50%;
+    max-width: 800px;
+    background: rgb(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+} 
+
+.search_bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 2% 2.5%;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+::placeholder {
+    color: #cac7ff;
+}
+
+.search_bar button img {
+    width: 25px;
+}
+
+.search_bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.index_pic {
+    width: 70%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 25%;
+}
+
+.font_orange {
+    color: #f33f3f;
+}
+
+.self_container
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.block
+{
+    user-select: none;
+    color: transparent;
+}
+
+.font_A
+{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Lucida Console", "Microsoft JhengHei", "微軟正黑體", sans-serif;
+    color: black;
+}
+
+.font_B
+{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Lucida Console", "Microsoft JhengHei", "微軟正黑體", sans-serif;
+    color: black;
+}
+
+.font_C
+{
+    font-family: "Lucida Console", "Microsoft JhengHei", "微軟正黑體", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline;
+}
